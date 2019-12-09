@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/qinzi.css">
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/jquery.mousewheel.min.js"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="text">
+				<p>当日子成为旧照片当旧照片成为回忆，我们成了背 对背行走的路人，沿着不同的方向，固执的一步一 步远离，没有雅典，没有罗马，再也没有回去的路。</p>
+			</div>
+			<div class="main">
+				<div class="oo"><a href="../index.html#Trends"><</a></div>
+				<h1>回忆录</h1>
+				
+			</div>
+			<div class="img">
+				<ul>
+					<li ><img src="../images/huiyi/1.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>迟到的婚纱</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/huiyi/2.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>搞怪</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/huiyi/3.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>70周年</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/huiyi/4.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>有你真好</p>
+							</div>
+						</div>
+						
+					</li>
+					<li ><img src="../images/huiyi/5.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>搀扶</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/huiyi/6.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>手牵手一起走</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<!-- 尾部内容 -->
+		<div class="footer">
+			<div class="ff"></div>
+			<div class="footer-left">
+				<div class="f-rr" id="link" name="link">
+					<h4>联系我们</h4>
+					<p><i style="font-size: 16px;">留◇影</i> 摄影工作室</p>
+					<p>重庆市渝中区朝天门来福士广场5楼20号</p>
+					<p>重庆办公电话:023-63727536</p>
+					<p>重庆传真：023-63729888</p>
+					
+				</div>
+				<div class="f-ll">
+					<input type="text" value="姓名"><br>
+					<input type="text" value="电话"><br>
+					<div class="tt">
+						<input type="submit">
+					</div>
+				</div>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li><img src="../images/13.PNG" alt="">
+						<p>移动段网站</p>
+					</li>
+					<li><img src="../images/13.PNG" alt="">
+						<p>微信公众号</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<script>
+			$(function(){
+				var w=$(window).width()
+				// console.log(w);
+				$('div.box').css('width',w)
+				$('.img ul li').mouseenter(function(){
+					$(this).children('#mouse').fadeIn();
+				})
+				$('.img ul li').mouseleave(function(){
+					$(this).children('#mouse').fadeOut();
+				})
+				
+				
+			})
+		</script>
+	</body>
+	
+</html>

@@ -1,0 +1,47 @@
+/*通用样式*/
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+
+.box{width: 100%;height:100%;background:black;position: relative;overflow: hidden;}
+
+/* 主体内容 */
+.main{width: 300px;height: 50px;margin-top: 50px;margin-left: 100px;}
+.img{width: 1190px;margin: 0 auto;}
+.main>h1{color: white;float: right;margin-right: 70px;}
+.oo>a{width: 50px;height: 50px;float: left;line-height: 50px;text-align: center;font-size: 36px;color: white;}
+.oo>a:hover{color: #00008B;}
+
+.main-text{width:1190px;height:100%;margin: 0 auto;overflow: hidden;}
+.one{width: 100%;height: 300px;margin: 20px 0px;overflow: hidden;}
+.one-l{width: 140px;height: 140px;background:white;border-radius: 70px;font-size: 60px;text-align: center;line-height: 140px;float: left;}
+.one-r{width: 980px;height: 100%;float: right;}
+.one-text{width: 290px;height: 300px;float: left;position: relative;background: #ccc;}
+.one-text>h2{height: 50px; position: absolute;right: 30px;top: 80px;color: white;font-size: 21px;}
+.one-text>p{width:250px;height:150px;color: white;font-size: 14px;margin: 130px 30px 0px 30px;}
+.one-r>img{width:690px ;height: 300px; float: right;}
+
+
+
+
+
+
+
+
+
+/*网页尾部*/
+.footer{width: 100%;height: 300px;background: url(../images/18.PNG)no-repeat;position: relative;}
+.ff{width: 100%;height: 300px;background:black;position: absolute;opacity: 0.5;}
+.footer-left{width: 770px;height: 200px;float: left;position: absolute;z-index: 2;top: 50px;left: 100px;}
+.f-rr{width: 350px;height: 200px;float: left;}
+.f-rr>h4{margin-top: 10px;margin-bottom: 20px;}
+.f-rr>p{font-size: 12px;color: #C8C6C5;}
+.f-ll{width: 350px;height: 200px;float: right;}
+.f-ll>input{width: 300px;height: 40px;margin: 10px;border: 1px solid #ccc;text-indent: 1em;background: rgba(0,0,0,0);color: white;font-size: 16px;}
+
+.tt>input{width: 100px;height: 35px;background: tan;text-align: center;line-height: 35px;border: 1px solid #ccc;margin: 10px; background: rgba(0,0,0,0);color: white;font-size: 14px;}
+
+.footer-right{width: 300px;height: 200px;float: right;position: absolute;z-index: 3;top: 50px;right: 100px;}
+.footer-right>ul>li{float: left;margin: 20px 20px;}
+.footer-right>ul>li>p{text-align: center;color: white;font-size: 14px;}

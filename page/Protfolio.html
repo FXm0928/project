@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>作品集</title>
+		<link rel="stylesheet" href="../css/Protfolio.css">
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/jquery.mousewheel.min.js"></script>
+	
+	</head>
+	<body>
+		<div class="back">
+			<div class="page">	
+				<div class="top">
+					<div class="oo"><a href="../index.html#Pro"><</a></div>
+					<h1>作品集</h1>
+				</div>
+				
+				<div class="container">
+					<ul>
+						<li>人物</li>
+						<li>自然</li>
+						<li>美食</li>
+						<li>计算机</li>
+						<li>建筑</li>
+					</ul>
+				</div>
+				<div class="main abc" style="display: block;">
+					<ul>
+						<li><a href=""><img src="../images/xiangce/3.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/4.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/5.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/6.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/7.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/8.jpg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="main-one abc">
+					<ul>
+						<li><a href=""><img src="../images/xiangce/10.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/11.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/12.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/13.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/14.jpg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="main-two abc">
+					<ul>
+						<li><a href=""><img src="../images/xiangce/15.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/16.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/17.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/18.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/19.jpg" alt=""></a></li>
+						
+					</ul>
+				</div>
+				<div class="main-three abc">
+					<ul>
+						<li><a href=""><img src="../images/xiangce/20.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/21.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/22.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/23.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/24.jpg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="main-four abc">
+					<ul>
+						<li><a href=""><img src="../images/xiangce/25.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/26.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/27.jpg" alt=""></a></li>
+						<li><a href=""><img src="../images/xiangce/28.jpg" alt=""></a></li>
+					</ul>
+				</div>
+				
+				
+				
+				<!-- 尾部内容 -->
+				<div class="footer">
+					<div class="ff"></div>
+					<div class="footer-left">
+						<div class="f-rr" id="link" name="link">
+							<h4>联系我们</h4>
+							<p><i style="font-size: 16px;">留◇影</i> 摄影工作室</p>
+							<p>重庆市渝中区朝天门来福士广场5楼20号</p>
+							<p>重庆办公电话:023-63727536</p>
+							<p>重庆传真：023-63729888</p>
+							
+						</div>
+						<div class="f-ll">
+							<input type="text" value="姓名"><br>
+							<input type="text" value="电话"><br>
+							<div class="tt">
+								<input type="submit">
+							</div>
+						</div>
+					</div>
+					<div class="footer-right">
+						<ul>
+							<li><img src="../images/13.PNG" alt="">
+								<p>移动段网站</p>
+							</li>
+							<li><img src="../images/13.PNG" alt="">
+								<p>微信公众号</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			$(function(){
+				var w=$(window).width()
+				// console.log(w);
+				$('div.box').css('width',w)
+				$(".container ul li").click(function(){
+					var path = $(this).index();	
+					$(".container ul li").eq(path).css({background:'#498399'}).siblings().css({background:'rgba(0,0,0,0)'})
+					$(".abc").eq(path).css({display:'block'}).siblings("div[class*=abc]").css({display:'none'})
+				
+					
+				})
+			})
+			
+		</script>
+	</body>
+</html>

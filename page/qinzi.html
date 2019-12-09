@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/qinzi.css">
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/jquery.mousewheel.min.js"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="text">
+				<p>你陪我长大，我陪你变老。陪孩子长大是一件幸福的事情，每天看到他的进步，他每天跟我分享他们的喜怒，简单，快乐。</p>
+			</div>
+			<div class="main">
+				<div class="oo"><a href="../index.html#Trends"><</a></div>
+				<h1>亲子照</h1>
+			</div>
+			<div class="img">
+				<ul>
+					<li ><img src="../images/qinzi/5.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>圣诞Paty</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/qinzi/6.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>蔓延时光</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/qinzi/7.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>全家福</p>
+							</div>
+						</div>
+					</li>
+					<li ><img src="../images/qinzi/8.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>摩登家庭</p>
+							</div>
+						</div>
+						
+					</li>
+					<li ><img src="../images/qinzi/9.jpg" alt="">
+						<div id="mouse">
+							<div class="mouse-b">
+								<p>爱的方程式</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<!-- 尾部内容 -->
+		<div class="footer">
+			<div class="ff"></div>
+			<div class="footer-left">
+				<div class="f-rr" id="link" name="link">
+					<h4>联系我们</h4>
+					<p><i style="font-size: 16px;">留◇影</i> 摄影工作室</p>
+					<p>重庆市渝中区朝天门来福士广场5楼20号</p>
+					<p>重庆办公电话:023-63727536</p>
+					<p>重庆传真：023-63729888</p>
+				</div>
+				<div class="f-ll">
+					<input type="text" value="姓名"><br>
+					<input type="text" value="电话"><br>
+					<div class="tt">
+						<input type="submit">
+					</div>
+				</div>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li><img src="../images/13.PNG" alt="">
+						<p>移动段网站</p>
+					</li>
+					<li><img src="../images/13.PNG" alt="">
+						<p>微信公众号</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<script>
+			$(function(){
+				var w=$(window).width()
+				// console.log(w);
+				$('div.box').css('width',w)
+				$('.img ul li').mouseenter(function(){
+					$(this).children('#mouse').fadeIn();
+				})
+				$('.img ul li').mouseleave(function(){
+					$(this).children('#mouse').fadeOut();
+				})
+				
+				
+			})
+		</script>
+	</body>
+	
+</html>

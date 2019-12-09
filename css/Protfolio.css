@@ -1,0 +1,71 @@
+/*通用样式*/
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+/* 页面底部 */
+.back{width: 100%;height:100%;background:black;overflow: hidden;}
+.page{width: 1000px;height:100%;background:url(../images/hunsha/3.jpg)no-repeat;margin: 30px auto;overflow: hidden;}
+.top{width: 170px;height: 50px;margin-top: 50px;margin-left: 60px;}
+
+.top>h1{color: white;float: right;}
+.oo>a{width: 50px;height: 50px;float: left;line-height: 50px;text-align: center;font-size: 36px;color: white;}
+.oo>a:hover{color: #00008B;}
+
+
+/* 作品集导航 */
+.container{width:900px;height: 50px;margin: 10px auto;overflow: hidden;}
+.container>ul{width: 350px;height: 40px;margin-top: 5px;}
+.container>ul>li{width: 50px;height: 30px;float: left;margin-left: 15px;text-align: center;line-height: 30px;border: 1px solid #498399;margin-top: 5px;border-radius: 5px;font-size: 12px;color:white;}
+
+/* .container>ul>li:hover{background: #498399;} */
+
+
+.main{width: 900px;height: 440px;margin: 10px auto;display: none;}
+.main>ul>li{width: 280px;height: 200px;margin: 10px;float: left;}
+.main>ul>li>a>img{width: 90%;}
+.main>ul>li>a>img:hover{width: 100%;height: 100%;}
+
+.main-one{width: 900px;height: 440px;margin: 10px auto;display: none;}
+.main-one>ul>li{width: 280px;height: 200px;margin: 10px;float: left;}
+.main-one>ul>li>a>img{width: 90%;}
+.main-one>ul>li>a>img:hover{width: 100%;height: 100%;}
+
+.main-two{width: 900px;height: 540px;margin: 10px auto;display: none;}
+.main-two>ul>li{width: 280px;height: 200px;margin: 10px;float: left;}
+.main-two>ul>li>a>img{width: 90%;}
+.main-two>ul>li>a>img:hover{width: 100%;height: 100%;}
+
+.main-three{width: 900px;height: 440px;margin: 10px auto;display: none;}
+.main-three>ul>li{width: 280px;height: 200px;margin: 10px;float: left;}
+.main-three>ul>li>a>img{width: 90%;}
+.main-three>ul>li>a>img:hover{width: 100%;height: 100%;}
+
+.main-four{width: 900px;height: 440px;margin: 10px auto;display: none;}
+.main-four>ul>li{width: 280px;height: 200px;margin: 10px;float: left;}
+.main-four>ul>li>a>img{width: 90%;}
+.main-four>ul>li>a>img:hover{width: 100%;height: 100%;}
+
+
+
+
+
+
+
+
+
+/*网页尾部*/
+.footer{width: 100%;height: 300px;background: url(../images/18.PNG)no-repeat;position: relative;}
+.ff{width: 100%;height: 300px;background:black;position: absolute;opacity: 0.5;}
+.footer-left{width: 600px;height: 200px;float: left;position: absolute;z-index: 2;top: 50px;left: 60px;}
+.f-rr{width: 250px;height: 200px;float: left;}
+.f-rr>h4{margin-top: 10px;margin-bottom: 20px;}
+.f-rr>p{font-size: 12px;color: #C8C6C5;}
+.f-ll{width: 350px;height: 200px;float: right;}
+.f-ll>input{width: 300px;height: 40px;margin: 10px;border: 1px solid #ccc;text-indent: 1em;background: rgba(0,0,0,0);color: white;font-size: 16px;}
+
+.tt>input{width: 100px;height: 35px;background: tan;text-align: center;line-height: 35px;border: 1px solid #ccc;margin: 10px; background: rgba(0,0,0,0);color: white;font-size: 14px;}
+
+.footer-right{width: 300px;height: 200px;float: right;position: absolute;z-index: 3;top: 50px;right: 30px;}
+.footer-right>ul>li{float: left;margin: 20px 20px;}
+.footer-right>ul>li>p{text-align: center;color: white;font-size: 14px;}
